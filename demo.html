@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <p>djsndj</p> -->
+    </head>
+    <body>
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="fname" autocomplete="on">
+        <br><br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" autocomplete="on">
+        <br><br>
+
+        <label for="mail">Email</label>
+        <input type="email" id="mail" name="mail" autocomplete="on">
+        <br><br>
+
+        <input type="button" onclick="onsub()" value="submit">
+        <!-- <button onclick={onsub()} value="submit">submit</button> -->
+
+        <br><br>
+        <br><br>
+
+        <style>
+            table,tr,th,td{
+                border: 1px solid black;
+            }
+        </style>
+
+        <table id="container">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+
+        </table>
+        <script type="text/javascript" language="javascript" src="./table.js"></script>
+    </body>
+</html>
